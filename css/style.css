@@ -12,13 +12,123 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  font-family: 'Poppins', sans-serif;
 }
 .container{
   width: 1200px;
   padding: 0 30px;
 }
+
+
+
+#hero-content{
+  background-color: #E6F0FF;
+}
+.header-inner{
+  padding-top: 38px;
+}
+.header-loho{
+  margin-right: 64px;
+}
+.site-nav{
+  margin-right: 399px;
+}
+.nav-item:not(:last-child){
+  margin-right: 30px;
+}
+.nav-link{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #4F5361;
+}
+.contact-link:not(:last-child){
+  margin-right: 18px;
+}
+.sign{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #0F1B4C;
+}
+.link{
+  padding: 10px 20px;
+  background: #0F1B4C;
+  border-radius: 8px;
+  color: #fff;
+}
+.registr{
+    padding: 10px 20px;
+    background: #0F1B4C;
+    border-radius: 8px;
+    color: #fff;
+}
+
+
+.hero-inner{
+  padding-top: 39px;
+}
+.first-text{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.01em;
+  color: #687691;
+}
+.hero-title{
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 76px;
+  color: #000336;
+  width: 600px;
+  margin-bottom: 30px;
+}
+.last-text{
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  text-transform: capitalize;
+  color: #5A6473;
+  width: 550px;
+  margin-bottom: 40px;
+}
+.site-img{
+  content: '';
+  display: block;
+  width: 584px;
+  height: 619px;
+  background-image: url('../images/house-hero.svg');
+  background-position: left bottom;
+  background-repeat: no-repeat;
+}
+.hero-link{
+  padding: 15px 37px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .content-inner{
-  padding: 50px 0;
+  padding: 100px 0;
+}
+.content-info{
+  padding-top: 50px;
+  margin: 0 auto;
+}
+.status{
+  margin-bottom: 110px;
 }
 .content-hr{
   width: 40px;
@@ -68,26 +178,26 @@ body {
 .top-box{
   position: absolute;
   top: 0;
-  left: 0;
-  margin-right: 120px;
+  left: -5%;
+  margin-right: 150px;
   margin-top: 0px;
   padding: 45px 22px;
   background: #FFFFFF;
-  box-shadow: 10px 10px 5px #b1b8b8e1;
+  box-shadow: 5px 5px 5px #b1b8b8e1;
   border-radius: 0px 0px 12px 12px;
   width: 239px;
   height: 252px;
   z-index: 1;
 }
 .price::after{
+  padding-left: 20px;
   content: '';
   display: block;
   width: 25px;
   height: 16px;
   background-image: url('../images/vector-arrow.svg');
-  background-position: top right;
   background-repeat: no-repeat;
-  margin-left: 10px;
+
 }
 .price-box{
   display: flex;
@@ -97,4 +207,178 @@ body {
   display: block;
   margin: 0 auto;
   position: relative;
+}
+.top-img-box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.user-img{
+  width: 30%;
+  height: 70%;
+}
+.sale-num{
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 64px;
+  color: #000000;
+  margin-bottom: 22px;
+}
+.sale-text{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #7B8087;
+}
+.style-none{
+  list-style-type: none;
+}
+.text-none{
+  text-decoration: none;
+}
+
+
+.property-inner{
+  background-color: #063183;
+  border-radius: 20px;
+  padding: 120px 0 110px 80px;
+  position: relative;
+  height: 410px;
+  z-index: 1;
+}
+.property-title{
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 35px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+.property-text{
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #fff;
+  opacity: 0.75;
+  margin-bottom: 20px;
+}
+.property-link{
+  width: 180px;
+  height: 50px;
+  display: block;
+  background: #fff;
+  border-radius: 12px;
+  padding: 15px 22px;
+  color: #002366;
+}
+.property-img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -245px;
+  margin-left: 20px;
+  z-index: 10;
+}
+
+
+.customer-inner{
+  padding: 100px 0;
+}
+.custom-title{
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0.01em;
+  color: #00788A;
+  margin-bottom: 32px;
+  width: 311px;
+}
+.custom-person{
+  margin-bottom: 36px;
+}
+.custom-name{
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.0025em;
+  color: #083038;
+  margin-bottom: 1px;
+}
+.custom-job{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.0025em;
+  color: #083038;
+  opacity: 0.5;
+}
+.person-img{
+  width: 57px;
+  height: 63px;
+  background-image: url('../images/justin-pearre.png');
+  margin-right: 21px;
+}
+.img{
+  content: '';
+  display: block;
+  background-repeat: no-repeat;
+}
+.custom-star{
+  width: 13px;
+  height: 13px;
+  background-image: url('../images/star.svg'),url('../images/star.svg'),url('../images/star.svg'),url('../images/star.svg'),url('../images/star.svg');
+}
+.custom-text{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 34px;
+  letter-spacing: 0.02em;
+  color: #083038;
+  width: 479px;
+  margin-bottom: 34px;
+}
+.custom-link{
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 16px;
+  color: #00BFC4;
+  align-items: center;
+}
+.custom-link-img{
+  color: #00BFC4;
+  margin-left: 8px;
+}
+.read{
+  display: block;
+  margin-bottom: 54px;
+}
+.link-box{
+  margin: 0 auto;
+  text-align: center;
+}
+.boy-img{
+  background: linear-gradient(229.5deg, #F5F9FA 25.09%, #D7F2F9 101.5%);
+  border-radius: 100px;
+  display: block;
+  margin-left: auto;
+}
+.custom-person-img{
+  position: relative;
+  z-index: 1;
+}
+.emoge-box{
+  position: absolute;
+  top: 12%;
+  left: 0;
+  margin-top: 0;
+  margin-left: 55px;
+  z-index: 10;
+}
+.emoge-img{
+  display: block;
+  background: #FFFFFF;
+  box-shadow: 4px 4px 40px rgba(89, 121, 167, 0.17);
+  border-radius: 196px;
+}
+.icon-box{
+  margin-bottom: 30px;
 }
