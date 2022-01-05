@@ -310,6 +310,7 @@ body {
   letter-spacing: 0.0025em;
   color: #083038;
   opacity: 0.5;
+  margin-bottom: 2px;
 }
 .person-img{
   width: 57px;
@@ -323,9 +324,9 @@ body {
   background-repeat: no-repeat;
 }
 .custom-star{
-  width: 13px;
+  width: 70px;
   height: 13px;
-  background-image: url('../images/star.svg'),url('../images/star.svg'),url('../images/star.svg'),url('../images/star.svg'),url('../images/star.svg');
+  background-image: url('../images/stars.svg');
 }
 .custom-text{
   font-weight: 500;
