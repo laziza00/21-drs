@@ -355,17 +355,11 @@ body {
 }
 .emoge-box{
   position: absolute;
-  top: 12%;
+  top: 6%;
   left: 0;
   margin-top: 0;
-  margin-left: 55px;
+  margin-left: 45px;
   z-index: 10;
-}
-.emoge-img{
-  display: block;
-  background: #FFFFFF;
-  box-shadow: 4px 4px 40px rgba(89, 121, 167, 0.17);
-  border-radius: 196px;
 }
 .icon-box{
   margin-bottom: 30px;
